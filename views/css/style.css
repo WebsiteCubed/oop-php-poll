@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1.2em;
+    line-height: 1.6em;
+}
+
+hr {
+    display: block; 
+    height: 1px;
+    border: 0; 
+    border-top: 1px solid #ddd;
+    margin: .5em 0; 
+    padding: 0; 
+}
+
+a {
+    text-decoration: none;
+    color: rgb(119, 119, 119);
+}
+
+a:hover {
+    color: rgb(2, 2, 233);
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 1.2em;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.poll-container {
+    border-radius: .8em;
+    display: block;
+    padding: 1em;
+    background: #efefef;
+}
+
+button {
+    border-radius: .4em;
+    margin: .5em 0;
+    padding: .3em .6em;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+    background:rgb(2, 2, 233);
+    color:white;
+    border: 0;
+}
+
+button:hover {
+    background:rgb(52, 52, 240);
+}
+
+input[type="radio"] {
+    margin: 0px 5px 0px 0px;
+}
+
+.option, .option-results, .success-message {
+    padding:4px;
+}
+
+.option-results {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-link {
+    font-size: .8em;
+    float: right;
+}
+
+.option-result {
+    display: flex;
+}
+
+.min-width {
+    min-width: 296px;
+}
+
+.success-message {
+    border-radius: .4em;
+    text-align:center;
+    font-size: .8em;
+    background: #ccc;
+    padding: .5em 0;
+}
